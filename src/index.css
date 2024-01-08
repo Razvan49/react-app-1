@@ -13,3 +13,28 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+main {
+  width: 1440px;
+  margin: 0 auto;
+}
+
+.sidebar {
+  background: #f3f3f3;
+  height: 100%;
+  margin-left: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  list-style-type: none;
+  width: 200px;
+  padding: 16px 8px;
+}
+.sidebar li {
+  color: #ff6b0a;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 1.25px;
+  text-transform: uppercase;
+  font-weight: 700;
+}
